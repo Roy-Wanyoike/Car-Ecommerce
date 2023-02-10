@@ -118,3 +118,54 @@
   .btn >button {
     margin: 10px;
   }
+
+/* Homepage */
+.homepage-content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.homepage-content-center h1,h4 {
+  font-size: 36px;
+}
+
+.homepage-buttons button{
+
+color: black;
+background-color: aqua transparent;
+border-radius: 10px;
+padding: auto;
+gap: 30px;
+margin-top: 50px;
+font-size: 24px;
+height: 50px;
+width: 200px;
+}
+
+.homepage-buttons button:hover{
+background-color: red;
+color: white;
+}
+
+
+
+.homepage-buttons button:active{
+background-color: red;
+color: white;
+}
+
+
+
+
+.homepage-buttons .homepage-content-center{
+
+}
+.main {
+  /* background: url(/frontend/images/jeep.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  overflow-x: auto; */
+}
