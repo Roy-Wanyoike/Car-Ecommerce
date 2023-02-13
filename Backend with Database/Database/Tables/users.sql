@@ -5,3 +5,4 @@ ALTER TABLE users
 ADD fullName VARCHAR(50), phoneNo VARCHAR(50), country VARCHAR(50)    
 
 
+ALTER TABLE users ADD  emailSent VARCHAR(50) DEFAULT '0'
